@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.a {
+  grid-area: header;
+}
+.b {
+  grid-area: main;
+}
+.c {
+  grid-area: cart;
+}
+.App {
+  display: grid;
+  grid-template-columns: 100vw;
+  grid-template-rows: 20vh 55vh 25vh;
+  grid-template-areas:
+    "header"
+    "main"
+    "cart";
+}
+
+@media (min-width: 769px) {
+  .App {
+    display: grid;
+    grid-template-columns: 5vw 65vw 25vw 5vw;
+    grid-template-rows: 10vh 90vh;
+    grid-template-areas:
+      "header header header header"
+      ". main cart .";
+  }
+}

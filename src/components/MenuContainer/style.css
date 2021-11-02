@@ -1,0 +1,26 @@
+.showContainer {
+  display: flex;
+  overflow-x: auto;
+}
+
+.showContainer button {
+  margin-left: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #e0e0e0;
+
+  width: 60vw;
+  min-width: 200px;
+  max-width: 300px;
+
+  margin: 20px;
+}
+
+@media (min-width: 769px) {
+  .showContainer {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,15 @@
+.cart button {
+  color: #bdbdbd;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  border: none;
+  background: none;
+  margin: auto 20px auto auto;
+
+  width: fit-content;
+}

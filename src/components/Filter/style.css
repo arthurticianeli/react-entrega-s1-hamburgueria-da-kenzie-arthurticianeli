@@ -1,0 +1,30 @@
+.filter {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  border: solid 1px #e0e0e0;
+  padding: 10px;
+  background-color: white;
+
+  margin: auto;
+
+  width: 356px;
+  height: 65px;
+}
+
+.input {
+  display: flex;
+  border: none;
+  width: 100%;
+  margin-right: 10px;
+}
+.input::placeholder {
+  color: #e0e0e0;
+  font-size: 16px;
+}
+
+@media (min-width: 769px) {
+  .filter {
+    margin: auto 6.5vw auto 0;
+  }
+}

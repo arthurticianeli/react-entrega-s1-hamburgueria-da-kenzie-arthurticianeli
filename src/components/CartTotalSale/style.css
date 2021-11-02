@@ -1,0 +1,15 @@
+.totalSale {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  border-top: 2px solid #e0e0e0;
+  padding-top: 20px;
+}
+
+.cartTotal {
+  color: #828282;
+}
+
+.total {
+  font-weight: 600;
+}
